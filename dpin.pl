@@ -162,6 +162,7 @@ sub list {
 			print "$BLUE$fnum $NORMAL$falias $GRAY$fdir";
 		}
 	}
+	 print "${NORMAL}";
 
 	close(FH);
 } 
